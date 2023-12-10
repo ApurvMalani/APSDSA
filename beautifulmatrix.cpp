@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	//  2d matrix ;
+	//  2d = i j ;
 
 	int arr[5][5];
 	int row, column;
