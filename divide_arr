@@ -1,0 +1,27 @@
+import java.util.Arrays;
+
+public class ar{
+    public static void main(String[] args) {
+
+
+      int[] arr = {10,20,30,40,50,60};
+
+      int n = arr.length;
+
+      int[] div1 = new int[n/2];
+      int[] div2  =new int[n/2];
+
+        System.arraycopy(arr, 0, div1, 0, n / 2);
+        System.arraycopy(arr, n / 2, div2, n / 2 - (n / 2), n - n / 2);
+        System.out.print(" arr1 :");
+        for (int x: div1){
+            System.out.print(x +" ");
+        }
+        System.out.print("\n arr2 :");
+        for (int x: div2){
+            System.out.print(x +" ");
+        }
+
+
+    }
+}
